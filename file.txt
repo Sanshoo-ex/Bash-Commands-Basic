@@ -1,0 +1,84 @@
+🐧 Linux Cheat Sheet
+🔹 Navigation
+pwd            # show current directory (Print Working Directory)
+ls             # list files
+ls -l          # list with details
+cd /path       # change directory
+cd ~           # go to home directory
+cd ..          # go up one folder
+
+
+🔹 File & Directory Management
+touch file.txt      # create empty file
+nano file.txt       # edit file in nano
+cat file.txt        # view file content
+mkdir myfolder      # create directory
+rm file.txt         # remove file
+rm -r myfolder      # remove folder and contents
+cp file.txt copy.txt # copy file
+mv file.txt new.txt # rename/move file
+
+
+🔹 File Viewing
+less file.txt       # view file, scroll with arrows (q to quit)
+head file.txt       # first 10 lines
+tail file.txt       # last 10 lines
+tail -f file.txt    # live monitor file (useful for logs)
+
+
+🔹 System Info
+whoami              # show current user
+uname -a            # show system info
+df -h               # disk usage
+free -h             # memory usage
+uptime              # system uptime
+
+
+🔹 Permissions
+ls -l               # view permissions
+chmod +x script.sh  # make file executable
+chown user:user file.txt # change file owne
+
+
+🔹 Package Management (Debian/Ubuntu)
+sudo apt update        # refresh package list
+sudo apt upgrade       # upgrade packages
+sudo apt install nano  # install a package
+sudo apt remove nano   # uninstall package
+
+
+🔹 Processes
+ps aux | grep process  # find a process
+top                    # live process monitor
+htop                   # better monitor (if installed)
+kill -9 PID            # kill process by ID
+
+
+🔹 Networking
+ping google.com     # test connectivity
+curl http://url     # fetch web page
+ifconfig            # show network interfaces (or `ip a`)
+
+
+
+🔹 Archive & Compress
+tar -czvf files.tar.gz folder/   # compress folder
+tar -xzvf files.tar.gz           # extract folder
+
+
+🔹 Shortcuts
+CTRL + C → cancel a running process
+CTRL + D → logout / end input
+CTRL + R → search through command history
+TAB → auto-complete filenames/commands
+
+
+🔹 Nano Quick Keys
+    Inside nano editor:
+    CTRL + O → Save (write Out)
+    CTRL + X → ExitCTRL + W → Search in file
+    CTRL + K → Cut line
+    CTRL + U → Paste line
+
+
+    
